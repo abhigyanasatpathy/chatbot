@@ -1,0 +1,12 @@
+<div class="cards-container">
+  <div class="card" *ngFor="let note of notes">
+    <img src="https://images.unsplash.com/photo-1549068106-b024baf5062d?blend=000000&amp;blend-alpha=10&amp;blend-mode=normal&amp;blend-w=1&amp;crop=faces%2Cedges&amp;h=630&amp;mark=https%3A%2F%2Fimages.unsplash.com%2Fopengraph%2Flogo.png&amp;mark-align=top%2Cleft&amp;mark-pad=50&amp;mark-w=64&amp;w=1200&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzE0NjUyNDYwfA&amp;ixlib=rb-4.0.3">
+    <div class="card-content">
+      <b>{{ note.Name }}</b>
+      <div class="bio" *ngFor="let data of bio">
+        <p>Mobile: {{ data.Mobile }}</p>
+        <p>Address: {{ data.Address }}</p>
+      </div>
+    </div>
+  </div>
+</div>

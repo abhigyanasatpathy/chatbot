@@ -1,0 +1,26 @@
+<header class="header">
+  <div class="header_in">
+    <button type="button" class="toggle" (click)="toggleSidebar()">
+      <span></span>
+     </button>
+ </div>
+</header>
+<div>
+  <div class="content">
+    
+      <router-outlet></router-outlet> <!-- This is where routed components will be rendered -->
+    
+  </div>
+</div>
+<div class="sidebar" id='sidebar' [ngClass]="{'sidebarshow': sidebarOpen}">
+ <ul>
+  <li><a [routerLink]="['/dashboard']">Home</a></li>
+   <li><a [routerLink]="['/profile']">About</a></li>
+
+   <li><a [routerLink]="['/profile']">Contact</a></li>
+   <li><a [routerLink]="['/Userdata']">User</a></li>
+   <li><a [routerLink]="['/contact']">contact</a></li>
+
+
+ </ul>
+</div>
