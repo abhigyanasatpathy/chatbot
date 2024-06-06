@@ -37,8 +37,12 @@ predefined_qa = {
     "how do you work?": "I work by processing your questions and matching them to predefined answers programmed by my creator.",
     "what's your favorite book?": "I don't read books, but many people love 'To Kill a Mockingbird' by Harper Lee.",
     "can you solve math problems?": "Sure! Ask me a math problem and I'll do my best to help.",
-    "what's your favorite food?": "I don't eat, but I know that pizza is a popular choice among humans!"
-    
+    "what's your favorite food?": "I don't eat, but I know that pizza is a popular choice among humans!",
+    "who is suvashree?": "wife of suryakanta hota!",
+    "who is Mandeep?": "Mandeep is the husband of Vandana.",
+   "who is suryakant?": "Suryakanta Hota is an excellent, hardworking guy.",
+   "Tell me about Domainxeed company?" : "DomainXeed, is a NextGen Digital Services company focused on developing innovative, business-critical applications and delivering quality services for Global customers.",
+    "What is the mission of domainxeed?" : "We build mission-critical web applications covering dashboard, real-time monitoring, UI application, reporting or any custom development."
 }
 
 def get_best_match(question):

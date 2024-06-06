@@ -63,6 +63,10 @@ export class ChatComponent implements OnInit {
     }
   }
 
+  clearChat() {
+    this.messages = [];
+  }
+
   speak(text: string) {
     const synth = window.speechSynthesis;
     const utterance = new SpeechSynthesisUtterance(text);

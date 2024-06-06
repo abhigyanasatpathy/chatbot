@@ -1,13 +1,22 @@
 <div class="main-container">
+  
 <div class="chat-container">
     <div *ngFor="let message of messages" class="message-container">
         <p [ngClass]="{'user-message': message.sender === 'User', 'bot-message': message.sender === 'Bot'}">
             <strong>{{ message.sender }}:</strong> {{ message.text }}
         </p>
     </div>
+
+    <div class="btn-container">
     
     <input [(ngModel)]="question" placeholder="Type your question here" />
     <button (click)="askQuestion()">Ask</button>
     <button id="voice-button">🎤 Ask with Voice</button>
+    <button (click)="clearChat()">Clear Chat</button>
+</div>
+    
+  </div>
+  <div class="footer-message">
+    <p>Created with 🤖 by Abhigyana</p>
   </div>
   </div>
