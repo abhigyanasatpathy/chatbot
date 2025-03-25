@@ -40,6 +40,8 @@ predefined_qa = {
     "what's your favorite food?": "I don't eat, but I know that pizza is a popular choice among humans!",
     "who is suvashree?": "wife of suryakanta hota!",
     "who is Mandeep?": "Mandeep is the husband of Vandana.",
+    "who is abhijit?": "abhijit is a backend developer studying at ITER.",
+
    "who is suryakant?": "Suryakanta Hota is an excellent, hardworking guy.",
    "Tell me about Domainxeed company?" : "DomainXeed, is a NextGen Digital Services company focused on developing innovative, business-critical applications and delivering quality services for Global customers.",
     "What is the mission of domainxeed?" : "We build mission-critical web applications covering dashboard, real-time monitoring, UI application, reporting or any custom development."
